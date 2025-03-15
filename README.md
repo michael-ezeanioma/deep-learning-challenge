@@ -4,22 +4,14 @@ Utilizing Python, Pandas, Scikit-Learn, and TensorFlow, this project develops a 
 
 # Project Components
 
-__1. Data Preprocessing:__
-
-The dataset charity_data.csv is loaded into a Pandas DataFrame, with IS_SUCCESSFUL as the target variable (0 for unsuccessful and 1 for successful outcomes) and the remaining columns as features. Non-essential identification columns (EIN, NAME) are dropped, categorical variables are encoded using pd.get_dummies(), and the data is split into training and testing sets using train_test_split.
+__1. Data Preprocessing:__ The dataset charity_data.csv is loaded into a Pandas DataFrame, with IS_SUCCESSFUL as the target variable (0 for unsuccessful and 1 for successful outcomes) and the remaining columns as features. Non-essential identification columns (EIN, NAME) are dropped, categorical variables are encoded using pd.get_dummies(), and the data is split into training and testing sets using train_test_split.
 Scales the training and testing feature datasets using StandardScaler().
 
-__2. Building the Neural Network Model:__
+__2. Building the Neural Network Model:__ A deep learning model is built and compiled using TensorFlow and Keras, with an input layer sized to match feature dimensions, hidden layers with appropriate activation functions, and a sigmoid-activated output layer for binary classification. The model is trained using backpropagation and optimized settings, then evaluated using accuracy and loss metrics.
 
-A deep learning model is built and compiled using TensorFlow and Keras, with an input layer sized to match feature dimensions, hidden layers with appropriate activation functions, and a sigmoid-activated output layer for binary classification. The model is trained using backpropagation and optimized settings, then evaluated using accuracy and loss metrics.
+__3. Model Optimization:__ The neural network is refined by adjusting input data, modifying hidden layers, changing activation functions, altering neuron counts, and tuning training epochs. The optimized model's accuracy is then compared to baseline results to assess performance improvements.
 
-__3. Model Optimization:__
-
-The neural network is refined by adjusting input data, modifying hidden layers, changing activation functions, altering neuron counts, and tuning training epochs. The optimized model's accuracy is then compared to baseline results to assess performance improvements.
-
-__4. Neural Network Performance Report:__
-
-The model's performance is evaluated using key metrics to assess its ability to predict funding success, with recommendations for improvements or alternative approaches.
+__4. Neural Network Performance Report:__ The model's performance is evaluated using key metrics to assess its ability to predict funding success, with recommendations for improvements or alternative approaches.
 
 # Files
 
