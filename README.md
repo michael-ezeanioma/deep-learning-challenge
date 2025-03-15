@@ -15,11 +15,15 @@ __4. Neural Network Performance Report:__ The model's performance is evaluated u
 
 # Files
 
-AlphabetSoupCharity.ipynb: Jupyter Notebook with initial model development.
-AlphabetSoupCharity_Optimization.ipynb: Jupyter Notebook with optimized 
-model.charity_data.csv: Dataset containing historical funding data.
-AlphabetSoupCharity.h5: Trained model file (initial).
-AlphabetSoupCharity_Optimization.h5: Trained model file (optimized).
+__AlphabetSoupCharity.ipynb:__ Jupyter Notebook with initial model development.
+
+__AlphabetSoupCharity_Optimization.ipynb:__ Jupyter Notebook with optimized 
+
+__model.charity_data.csv:__ Dataset containing historical funding data.
+
+__AlphabetSoupCharity.h5:__ Trained model file (initial).
+
+__AlphabetSoupCharity_Optimization.h5:__ Trained model file (optimized).
 
 # Key Features
 
@@ -30,14 +34,19 @@ __Model Assessment:__ The model's accuracy and efficiency are analyzed to assess
 # Dependencies
 
 __Pandas:__ Reads and processes funding data.
+
 __Scikit-Learn:__ Splits data into training/testing sets and applies feature scaling.
+
 __TensorFlow/Keras:__ Builds and trains the deep learning model.StandardScaler: Normalizes input features for improved model performance.
 
 # Technologies Used
 
 __Python:__ Core programming language for data processing and model training.
+
 __Pandas:__ Handles data manipulation and feature engineering.
+
 __Scikit-Learn:__ Provides tools for preprocessing and splitting datasets.
+
 __TensorFlow/Keras:__ Implements and optimizes the neural network model.
 
 # How to Use
