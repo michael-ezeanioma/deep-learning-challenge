@@ -19,11 +19,7 @@ The neural network is refined by adjusting input data, modifying hidden layers, 
 
 __4. Neural Network Performance Report:__
 
-Summarizes model performance using key classification metrics.
-
-Evaluates the model’s ability to predict funding success.
-
-Provides recommendations on further improvements or alternative modeling approaches.
+The model's performance is evaluated using key metrics to assess its ability to predict funding success, with recommendations for improvements or alternative approaches.
 
 # Files
 
@@ -41,13 +37,16 @@ __Model Assessment:__ The model's accuracy and efficiency are analyzed to assess
 
 # Dependencies
 
-Pandas: Reads and processes funding data.
-Scikit-Learn: Splits data into training/testing sets and applies feature scaling.
-TensorFlow/Keras: Builds and trains the deep learning model.StandardScaler: Normalizes input features for improved model performance.
+__Pandas:__ Reads and processes funding data.
+__Scikit-Learn:__ Splits data into training/testing sets and applies feature scaling.
+__TensorFlow/Keras:__ Builds and trains the deep learning model.StandardScaler: Normalizes input features for improved model performance.
 
 # Technologies Used
 
-Python: Core programming language for data processing and model training.Pandas: Handles data manipulation and feature engineering.Scikit-Learn: Provides tools for preprocessing and splitting datasets.TensorFlow/Keras: Implements and optimizes the neural network model.
+__Python:__ Core programming language for data processing and model training.
+__Pandas:__ Handles data manipulation and feature engineering.
+__Scikit-Learn:__ Provides tools for preprocessing and splitting datasets.
+__TensorFlow/Keras:__ Implements and optimizes the neural network model.
 
 # How to Use
 
@@ -59,4 +58,4 @@ Python: Core programming language for data processing and model training.Pandas:
 
 4. Evaluate model accuracy and optimize performance.
 
-5. Review the Neural Network Performance Report for final recommendations.Module 21 HW
+<!--Mod 21-->
